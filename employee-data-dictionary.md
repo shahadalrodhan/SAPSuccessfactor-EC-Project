@@ -6,7 +6,7 @@
 | Employee ID | Text | EMP001 |
 | Full Name | Text | Sara Ahmed |
 | Email Address | Text | Sara@gmail.com |
-| Phone Number | ُText | 0555555555 |
+| Phone Number | Text | 0555555555 |
 | Blood group | Text | A+ |
 | Gender | Text | Female |
 | Birth Date | Date | 14-09-1999 |
@@ -24,9 +24,10 @@
 
 | Field Name | Data Type | Example |
 |---|---|---|
+| Employee ID | Text | EMP001 |
 | Leave Request ID | Text | LR001 |
-| Start Date | Date | 2026-11-01 |
-| End Date | Date | 2026-11-03 |
+| Start Date | Date | 01-01-2026 |
+| End Date | Date | 01-02-2026 |
 | Status | Text | Pending |
 
 
