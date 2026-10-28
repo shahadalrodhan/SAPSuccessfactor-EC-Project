@@ -1,11 +1,9 @@
-
 # Requirements Traceability Matrix
 
 | Requirement ID | Requirement | Test Case ID | Test Result |
 |---|---|---|---|
-| BR01 | The system must accept valid employee data | TC01 | Not Run |
-| BR02 | Prevent duplicated Employee ID | TC02 | Not Run |
-| BR03 | The system must reject invalid email addresses | TC03 | Not Run |
-| BR04 | The system must reject an end date earlier than the start date | TC04 | Not Run |
-| BR05 | Provide accessibility to employee data using employee ID | TC05 | Not Run |
-| BR06 | Manage employee leave using employee ID, Start date and End date | TC06 | Not Run |
+| BR01 | The system must provide access to employee data using the Employee ID | TC05 | Not Run |
+| BR02 | The system must validate employee data | TC01, TC02, TC03 | Not Run |
+| BR03 | The system must reject contract end dates that are earlier than contract start dates | TC04 | Not Run |
+| BR04 | The system must support employee leave management | TC06 | Not Run |
+| BR05 | The system must allow users to submit leave requests using the Employee ID, start date, and end date | TC06 | Not Run |
