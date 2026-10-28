@@ -28,3 +28,9 @@
 | Start Date | Date | 2026-11-01 |
 | End Date | Date | 2026-11-03 |
 | Status | Text | Pending |
+
+
+## Data Validation Rules 
+- Employee ID must be unique.
+ - Email Address must contain a valid email format.
+ -  End Date must be after Start Date.
