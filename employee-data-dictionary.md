@@ -1,37 +1,27 @@
-
 # Employee Data Dictionary
 
 | Field Name | Data Type | Example |
 |---|---|---|
 | Employee ID | Text | EMP001 |
 | Full Name | Text | Sara Ahmed |
-| Email Address | Text | Sara@gmail.com |
+| Email Address | Text | sara@gmail.com |
 | Phone Number | Text | 0555555555 |
-| Blood group | Text | A+ |
 | Gender | Text | Female |
-| Birth Date | Date | 14-09-1999 |
+| Birth Date | Date | 1999-09-14 |
 | Nationality | Text | Saudi |
-| Department | Text | Information technology |
+| Department | Text | Information Technology |
 | Job Title | Text | Software Engineer |
 | Position | Text | Backend Team |
 | Manager | Text | Noura |
-| Hire Date | Date | 01-01-2026 |
+| Hire Date | Date | 2026-01-01 |
 | Employment Status | Text | Active |
+| Contract Start Date | Date | 2026-01-01 |
+| Contract End Date | Date | 2027-01-01 |
 | Salary | Number | 16000 |
-| Leave Balance | Number | 30 |
 
-## Leave Requests
+## Data Validation Rules
 
-| Field Name | Data Type | Example |
-|---|---|---|
-| Employee ID | Text | EMP001 |
-| Leave Request ID | Text | LR001 |
-| Start Date | Date | 01-01-2026 |
-| End Date | Date | 01-02-2026 |
-| Status | Text | Pending |
-
-
-## Data Validation Rules 
 - Employee ID must be unique.
- - Email Address must contain a valid email format.
- -  End Date must be after Start Date.
+- Email Address must follow a valid email format.
+- Required fields must not be empty.
+- Contract End Date must not be earlier than Contract Start Date.
