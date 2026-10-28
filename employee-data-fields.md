@@ -19,4 +19,10 @@
 - Employment Status
 - Salary
 - Leave Balance
-- Leave Requests
+
+## 3. Leave Request Information
+- Leave Request ID
+- Employee ID
+- Start Date
+- End Date
+- Status
