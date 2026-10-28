@@ -9,6 +9,6 @@ To centralize employee information in one system, improve data accessibility, re
 ## 3. Project Scope
 
 ### In Scope
-- Centralized employee records.
-- Basic personal and employment information.
-- Department, job title, and manager information.
+- Validate employee information
+- Provide easy access to employee records
+- Manage employee leave requests and balances
